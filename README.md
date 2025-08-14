@@ -15,10 +15,11 @@ This repository contains the source code for my personal portfolio website, buil
 
 ## 📂 Project Structure
 ```plaintext
-├── public/        # Static assets
-├── src/           # Main source code
-│   ├── components/ # Reusable UI components
-│   ├── pages/      # Website pages
-│   ├── styles/     # Global and component-specific styles
-└── README.md       # Project documentation
+├── public/             # Static assets
+├── src/
+│   ├── app/            # App Router pages, layouts, and routing logic
+│   ├── components/ui/  # Reusable UI components
+│   ├── hooks/          # Custom React hooks
+│   ├── lib/            # Utility functions, configurations, and helpers
+└── README.md           # Project documentation
 
